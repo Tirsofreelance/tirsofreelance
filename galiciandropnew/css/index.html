@@ -1,0 +1,91 @@
+ls<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Galiciandrop Home</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,minimum-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr.js"></script>
+
+</head>
+<body>
+<header>	
+		<img src="images/logo.jpg" alt="logo" title="logo"/>
+</header>
+<nav>
+	<ul class= "main-menu"><li class="menu" alt="menu" title="menu"><a href="#" ></a></li><ul>
+</nav>
+<ul class="submenu">
+	<li><a href="about.html"  alt="about galiciandrop" title="about galiciandrop">About galiciandrop</a></li>
+	<li><a href="galicia.html" alt="about galicia" title="about galicia">About Galicia</a></li>
+	<li><a href="albarino.html"alt="about albarino" title="about albarino">Albariño, an evergreen</a></li>
+	<li><a href="wines.html"alt="about wines" title="about wines">Our wines</a></li>
+	<li><a href="contact.html"alt="ontact" title="ontact">Contact</a></li>
+</ul>
+<section class="section-home">
+	<figure>
+		<img src="images/home.jpg" alt="vines" title="vines">
+	</figure>
+	<article class="texto-home">
+		<a href="galicia.html"><p class="p-big" alt="From galicia" title="From galicia">From Galicia</p></a>
+			<p>From the green northwest of Spain,  from small  vineyards where grapes are hand picked, where  just local grape varieties are grown and where  innovation is the rule, we bring high quality wines to get you to the authentic and zesty galician taste. <strong>Because Spain isn´t just Rioja.</stong></p>
+	</article>
+	<article class="social-article">
+		
+		<div class="follow">
+				<a href="#twitter-timeline" alt="share and follow us" title="share and follow us"><p class="p-follow">share&amp;follow us</p></a>
+		
+		</div>
+	</article>
+
+
+	<div name="twitter-timeline" class="timeline">
+	<div class="social">
+			
+			<div class="addthis_toolbox addthis_default_style ">
+							<a class="addthis_button_tweet"></a>
+							<a class="addthis_counter addthis_pill_style"></a>
+							<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-506afeaa016d9ef3"></script>
+						</div>
+
+
+		
+			</div>
+			<a class="twitter-timeline" href="https://twitter.com/Galiciandrop" data-widget-id="385756595105189888">Tweets por @Galiciandrop</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+	</div>
+		
+</section>
+<ul class="nav-footer">
+	<li class="link-galicia" alt="galicia" title="galicia"><a href="galicia.html">galicia</a></li>
+	<li class="link-albarino" alt="albarino" title="albarino"> <a href="albarino.html">albarino</a></li>
+	<li class="link-wines" alt="wines" title="albarino"><a href="wines.html"><a href="wines.html">our wines</a></li>
+	<li class="link-contact" alt="contact" title="contact"> <a href="albarino.html"><a href="contact.html">contact</a></li>
+</ul>
+<footer>
+	<span><p alt="galiciandrop 2013" title="galiciandrop 2013">galiciandrop 2013</p></span>
+	<p><a alt="by tirsofreelance" title="by tirsofreelance" href="http://www.tirsofreelance.eu/">by tirsofreelance</a></p>
+	
+</footer>
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+		</script>
+	<script>
+		function mostrarSubmenu(){
+			$('.submenu').slideToggle('');
+		}
+		$('.menu').on('click',mostrarSubmenu);
+
+		function mostrarTwitts(){
+			$('.timeline').slideToggle('');
+		}
+		$('.follow').on('click',mostrarTwitts);
+	</script>
+</body>
+</html>

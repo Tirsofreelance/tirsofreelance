@@ -1,0 +1,499 @@
+@font-face {
+  font-family: 'iconitos';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'), url("../fonts/icomoon.woff") format('woff'), url("../fonts/icomoon.ttf") format('truetype'), url("../fonts/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  border: none;
+  display: inline-block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', Arial;
+  font-size: 16px;
+}
+footer {
+  background: #c6de00;
+  border-top: 1px dotted #777;
+  color: rgba(255,255,255,0.75);
+  clear: both;
+  font-size: 0.85em;
+  font-weight: lighter;
+  padding: 2.65em 0;
+  text-align: center;
+}
+footer span p {
+  font-weight: bold;
+  padding: 0.85em 0;
+}
+footer span p:before {
+  content: "- ";
+  font-weight: bold;
+}
+footer span p:after {
+  content: " -";
+  font-weight: bold;
+}
+footer p {
+  padding: 0.2em;
+}
+footer p a {
+  border-bottom: 1px dotted rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.75);
+  padding: 0 0 0.35em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline-block;
+}
+.section-name {
+  font-family: 'Droid Serif', serif;
+  font-size: 150%;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  width: 250px;
+  z-index: 50;
+}
+.section-name .cuadrado {
+  display: inline-block;
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+.section-name .cuadrado img {
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.section-name h2 {
+  color: rgba(255,255,255,0.85);
+  display: inline-block;
+  font-size: 90%;
+  font-weight: border;
+  margin: -2px 0 0 -10px;
+  padding: 0;
+  position: relative;
+  text-align: right;
+  vertical-align: middle;
+}
+header {
+  height: auto;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+header img {
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+}
+nav {
+  display: block;
+  padding: 0;
+  position: relative;
+}
+nav .main-menu {
+  background-color: #c6de00;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+nav .main-menu .menu {
+  border: none;
+  display: inline-block;
+  margin: 0 0 0 80%;
+  padding: 0.25em 0;
+  position: relative;
+  width: auto;
+}
+nav .main-menu .menu:after {
+  color: rgba(255,255,255,0.75);
+  content: "\e602";
+  display: inline-block;
+  font-family: "iconitos";
+  font-size: 1.85em;
+  text-decoration: none;
+  vertical-align: middle;
+}
+nav .main-menu .menu:hover {
+  cursor: pointer;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+section.section-home {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+section.section-home figure {
+  width: auto;
+}
+section.section-home figure img {
+  margin: 0;
+  width: 100%;
+}
+section.section-home .discover {
+  background-color: #333;
+  border-radius: 10px;
+  display: inline-block;
+  height: auto;
+  margin: 1.25em 0 1.75em 1em;
+  position: relative;
+  width: auto;
+  z-index: 30;
+}
+section.section-home .discover p {
+  color: #eaeaea;
+  font-family: 'Droid Serif', serif;
+  font-size: 1.15em;
+  font-style: italic;
+  padding: 0.8em;
+}
+section.section-home .discover p:after {
+  color: #c6de00;
+  content: " \e604";
+  font-family: "iconitos";
+  font-size: 1.65em;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: middle;
+}
+section.section-home .follow {
+  display: inline-block;
+  font-size: 1.15em;
+  margin: 0 5% 0 25%;
+  padding: 1.85em 0;
+  position: relative;
+  text-align: center;
+  width: 70%;
+}
+section.section-home .follow .p-follow {
+  color: #555;
+}
+section.section-home .follow .p-follow:before {
+  color: #00aee9;
+  content: "\e600";
+  display: inline-block;
+  font-family: "iconitos";
+  font-size: 1.75em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: buttom;
+}
+section.section-home .follow .p-follow:after {
+  color: #00aee9;
+  content: "\e601";
+  display: inline-block;
+  font-family: "iconitos";
+  font-size: 1em;
+  text-decoration: none;
+  vertical-align: middle;
+}
+section.section-home .images-list {
+  background-color: #efefef;
+  border-bottom: 1px dotted #333;
+  display: none;
+  height: auto;
+  padding: 10% 5% 5% 5%;
+  position: relative;
+  width: auto;
+}
+section.section-home .images-list figure {
+  font-size: 0.85em;
+  font-style: italic;
+  margin: 0 0 2em 0;
+}
+section.section-home .images-list figure figcaption {
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  display: inline-block;
+  padding: 0.5em 0;
+}
+section.section-home .images-list figure img {
+  display: inline-block;
+  border-radius: 10px;
+  width: 100%;
+}
+section.section-home .close {
+  background-color: #333;
+  border-radius: 10px;
+  display: inline-block;
+  height: auto;
+  margin: 1.5em 0 0.5em 0.5em;
+  position: relative;
+  width: 90px;
+  z-index: 30;
+}
+section.section-home .close p {
+  color: #c6de00;
+  padding: 0.5em;
+}
+section.section-home .close p:before {
+  color: #eaeaea;
+  content: " \e605";
+  font-family: "iconitos";
+  font-size: 1.25em;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: top;
+}
+section.section-home .rounded-pictures-wrapper {
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+section.section-home .rounded-pictures-wrapper .rounded-picture {
+  border: 2px dotted #444;
+  border-radius: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+/* Firefox */
+  display: table;
+  float: left;
+  height: 40%;
+  margin: 1em 0 1em 20px;
+  padding: 0.35em;
+  text-align: center;
+  vertical-align: center;
+  width: 40%;
+}
+section.section-home .rounded-pictures-wrapper .rounded-picture img {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+section.section-home .rounded-pictures-wrapper .rounded-picture-big {
+  border: 2px dotted #444;
+  border-radius: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+/* Firefox */
+  display: table;
+  float: left;
+  height: 45%;
+  margin: 1.5em 15% 1em 15%;
+  padding: 0.35em;
+  text-align: center;
+  vertical-align: center;
+  width: 70%;
+}
+section.section-home .rounded-pictures-wrapper .rounded-picture-big img {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+section.section-home .social {
+  border: 1px dotted #666;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ie-border-radius: 10px;
+  padding: 1em;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  position: relative;
+  z-index: 10;
+}
+section.section-home .square-green {
+  background-color: #030;
+  height: 15px;
+  left: 30px;
+  margin: 0;
+  position: absolute;
+  top: 164px;
+  width: 15px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45 eg);
+/* IE 9 */
+  -webkit-transform: rotate(-45deg);
+/* Safari and Chrome */
+  z-index: 40;
+}
+section.section-home .texto-home {
+  background: #eaeaea;
+  margin: -4px 0 0 0;
+  padding: 0.9em 0.9em 1.25em 0.9em;
+  position: relative;
+}
+section.section-home .texto-home p {
+  color: #333;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-size: 0.8em;
+  font-weight: lighter;
+  line-height: 1.65em;
+  padding: 0.25em;
+}
+section.section-home .texto-home .p-big {
+  background-color: #333;
+  border-radius: 8px;
+  color: #eaeaea;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0.25em 0 0.65em 0;
+  padding: 0.5em 1em;
+}
+section.section-home .social-article {
+  background: #fff;
+  border-top: 1px dotted #333;
+  height: auto;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  postion: relative;
+  width: 100%;
+}
+section.section-home .wine-list {
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+section.section-home .wine-list auto,
+section.section-home .wine-list .wine-list-article {
+  display: inline-block;
+  float: left;
+  padding: 2em 0.12em;
+  position: relative;
+  width: 100%;
+}
+section.section-home .wine-list auto img,
+section.section-home .wine-list .wine-list-article img {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 50px;
+}
+section.section-home .wine-list auto p,
+section.section-home .wine-list .wine-list-article p {
+  display: inline-block;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-size: 80%;
+  margin: 0 0 0 1em;
+  padding: 0.25em;
+  width: 70%;
+}
+.nav-footer {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-display: none;
+  width: 100%;
+}
+.nav-footer li {
+  display: table;
+  float: left;
+  height: 80px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: center;
+  width: 25%;
+}
+.nav-footer li a {
+  color: #eaeaea;
+  display: table-cell;
+  font-size: 0.8em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+.nav-footer .link-galicia {
+  background-color: #072604;
+}
+.nav-footer .link-albarino {
+  background-color: #030;
+}
+.nav-footer .link-wines {
+  background-color: #127c12;
+}
+.nav-footer .link-contact {
+  background-color: #c6de00;
+}
+.submenu {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.submenu li {
+  background: #444;
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #555;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.submenu li a {
+  color: #eaeaea;
+  font-size: 0.85em;
+  font-style: italic;
+  display: block;
+  margin: 0 0 0 20px;
+  padding: 1em 0;
+}
+.timeline {
+  display: none;
+  margin-left: 1em;
+  padding: 1.65em 0;
+  width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .wine-list {
+    border-top: 1px dotted #333;
+    display: inline-block;
+    margin: 1em 0 0 0;
+    position: relative;
+    max-width: 100%;
+  }
+  .wine-list .wine-list-article {
+    margin: 0;
+    max-width: 46%;
+  }
+  .wine-list .wine-list-article img {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+  }
+  .social-article {
+    border-top: none;
+  }
+}

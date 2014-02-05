@@ -1,0 +1,147 @@
+/*--------------------------------------------------------------------------------------------
+|	@desc:		description
+|	@author:	Aravind Buddha
+|	@url:		http://www.techumber.com
+|	@date:		1 September 2012
+|	@email:     aravind@techumber.com
+|	@license:	Free! to Share,copy, distribute and transmit , 
+|               but i'll be glad if my name listed in the credits'
+---------------------------------------------------------------------------------------------*/
+.container{
+width: 700px;
+margin: 0 auto;
+}
+.logo{
+text-align: center;
+}
+
+#slider {
+background: #000;
+border: 5px solid #eaeaea;
+height: 350px;
+width: 900px;
+box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+margin: 2.5em auto 3em;
+overflow:hidden;
+position: relative;
+}
+#slider ul{
+margin: 0px;
+padding: 0px;
+position: relative;
+}
+#slider ul li {
+height: auto;
+width: 100%;
+position: absolute;
+list-style: none;
+float: left;
+}
+#slider ul li img
+{
+	width: 100%;
+}
+#slider ul li:first-child{
+-webkit-animation: move1 15s linear infinite; 
+-moz-animation: move1 15s linear infinite; 
+}
+#slider ul li:nth-child(2){
+-webkit-animation: move2 15s linear infinite; 
+-moz-animation: move2 15s linear infinite; 
+}
+#slider ul li:last-child{
+-webkit-animation: move3 15s linear infinite; 
+-moz-animation: move3 15s linear infinite; 
+}
+@-webkit-keyframes move1 {
+0%  { left: 0px; } 
+29% { left: 0px; opacity:1; z-index:0; }
+33% { left: 309px; opacity: 0; z-index: 0; } 
+34% { left: -309px; opacity: 0; z-index: -1; } 
+92% { left: -309px; opacity: 0; z-index: 0; }
+99% { left: 0px; opacity: 1; }
+100%{ left: 0px; opacity: 1; }
+}
+@-webkit-keyframes move2 {
+0%  { left: -309px; opacity: 0; } 
+29% { left: -309px; opacity:0; }
+33% { left: 0px; opacity: 1; }
+62% { left: 0px; opacity: 1; z-index: 0; }  
+66% { left: 309px; opacity: 0; z-index: 0; }
+67% { left: -309px; opacity: 0; z-index: -1; }  
+100%{ left: -309px; opacity: 0; z-index: -1; }
+}
+@-webkit-keyframes move3 {
+0%  { left: -309px; opacity: 0; }
+62% { left: -309px; opacity: 0; }
+66% { left: 0px;opacity: 1; z-index: 0; }
+94% { left: 0px; opacity: 1; } 
+99% { left: 309px; opacity: 0; z-index: 0; }
+100%{ left: -309px; opacity: 0; z-index: -1; }
+}
+
+@-moz-keyframes move1 {
+0%  { left: 0px; } 
+29% { left: 0px; opacity:1; z-index:0; }
+33% { left: 309px; opacity: 0; z-index: 0; } 
+34% { left: -309px; opacity: 0; z-index: -1; } 
+92% { left: -309px; opacity: 0; z-index: 0; }
+99% { left: 0px; opacity: 1; }
+100%{ left: 0px; opacity: 1; }
+}
+@-moz-keyframes move2 {
+0%  { left: -309px; opacity: 0; } 
+29% { left: -309px; opacity:0; }
+33% { left: 0px; opacity: 1; }
+62% { left: 0px; opacity: 1; z-index: 0; }  
+66% { left: 309px; opacity: 0; z-index: 0; }
+67% { left: -309px; opacity: 0; z-index: -1; }  
+100%{ left: -309px; opacity: 0; z-index: -1; }
+}
+@-moz-keyframes move3 {
+0%  { left: -309px; opacity: 0; }
+62% { left: -309px; opacity: 0; }
+66% { left: 0px;opacity: 1; z-index: 0; }
+94% { left: 0px; opacity: 1; } 
+99% { left: 309px; opacity: 0; z-index: 0; }
+100%{ left: -309px; opacity: 0; z-index: -1; }
+}
+
+@media screen and (max-width:768px){
+
+#slider {
+background: #000;
+border: 5px solid #eaeaea;
+height: 272px;
+width: 700px;
+box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+margin: 2em auto 3em;
+overflow:hidden;
+position: relative;
+}
+
+
+	}
+
+@media screen and (max-width:603px){
+#slider {
+background: #000;
+border: 5px solid #eaeaea;
+height: 214px;
+width: 550px;
+box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+margin: 2em auto 3em;
+overflow:hidden;
+position: relative;
+}
+
+}
+
+@media screen and (max-width:480px){
+#slider {
+	height: 122px;
+	margin: .5em auto 2em;
+	width:98%;
+}
+
+}

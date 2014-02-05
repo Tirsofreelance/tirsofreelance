@@ -1,0 +1,228 @@
+/*
+Plugin: jQuery Parallax
+Version 1.1.3
+Author: Ian Lunn
+Twitter: @IanLunn
+Author URL: http://www.ianlunn.co.uk/
+Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	
+	padding: 0;
+	t
+}
+h3 {border-bottom:#ccc solid 1px; clear:both; color:#333;font-family: 'Roboto Slab', serif; font-size:120%;margin:0 0 1em 0; font-weight:bold; padding:0.5em;}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+p, ul{
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
+}
+
+img{
+	border: 0;
+}
+
+h1, #pixels{
+	font-family:"Museo 900", Verdana, serif;
+	font-size-adjust:0.40;
+	font-weight:700;
+	font-style:normal;
+}
+
+h2
+{
+	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-size-adjust:0.531;
+	font-weight:500;
+	font-style:normal;
+}
+nav
+{
+	list-style: none;
+	position: fixed;
+	right: 2em;
+	text-decoration: none;
+}
+nav ul
+{
+	list-style: none;
+}
+nav ul li
+{
+	background-color: #222;
+	color:#eaeaea;
+	font-family: 'Open Sans', Arial;
+	font-size: 125%;
+	padding:0.5em;
+	text-align: right;
+	text-decoration: none;
+	
+}
+
+nav ul li a{
+	color:#EAEAEA;
+	padding: 0.25em;
+	text-align: right;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: orange;
+}
+
+
+
+#header h1, #pixels{
+	color: #48941A;
+}
+.hello-hola{background-color: #222; display: block; color: #fff;font-family: 'Roboto Slab', verdana, helvetica, arial; font-weight:lighter; font-size: 150%; padding: 0.5em; text-align: center;border-radius: 0.25em;}
+.hello-hola:hover{background-color:rgba(155,184,211,1); color:#EAEAEA;cursor: pointer;transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;}
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 40px 0 0;
+	width:600px;
+}
+.float-right a{
+	text-decoration: none;
+}
+.float-right h2{
+	color:#EAEAEA;
+	font-family: 'Roboto Slab', serif;
+	font-size: 250%;
+	margin: 0 0 1em 0;
+}
+.float-right h4{
+	color:#fff;
+	margin:0;
+}
+.float-right h5{
+	color:#EAEAEA;
+	font-size: 300%;
+	margin:0;
+	padding:0;
+}
+.float-right p {color:#222; display: inline-block; font-size:13px;line-height:19px;padding:1em;text-align:left;width:100%;}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+#about{
+	background-color: #222;
+	margin: 2em 0;
+	padding:1em;
+}
+
+
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#intro
+{
+	height: auto;
+	margin: 0 auto;
+	padding: 1em 0 2em 0;
+}
+
+#second
+{
+	background:url(../images/vinils.png) 50% 0 no-repeat fixed;
+	color: white;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#third
+{
+	background: ;
+	height: 650px;
+	padding: 100px 0 0 0;	
+}
+
+#fifth{
+	background:;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.story .float-left{
+	
+	background: #333;
+	color: #efefef;
+	margin: 0;
+	padding: 1em;
+	position: relative;
+	width: 350px;	
+}
+.wearedenada{float:right;}
+.wearedenada h3{background-color:#EAEAEA; border:none; color:#333;font-family: 'Merriweather', serif;line-height: 140%;font-size: 145%;font-style: italic;}
+
+
+
+/*Work*/
+#work-logo-article{box-sizing:border-box; float:left; height:auto;padding: 2em; width: 33%;}
+#work-web{height:auto;width: 100%;}
+#work-web h3{border-bottom: none;}
+#work-web-article{box-sizing:border-box; float:left; height:auto;padding: 2em; width: 50%;}
+#menu-work ul{margin:0 0 0 2em;}
+#menu-work li{float:left; padding:1em;}
+.menu-bottom{clear:both; height:auto; overflow:hidden; padding:0;}
+.menu-bottom h3:hover{color:#777;}
+.menu-bottom ul{height:auto;overflow:hidden; padding:0;width: 70%;}
+.menu-bottom ul li{float:left; margin-left: 1em;padding:0;text-align: center;}
+.menu-bottom h3{border-bottom: none; color:#333;}
+
+
+/*Work Thumbnails*/
+
+.ff-container{box-sizing:border-box; display: block;width: 1024px;margin:0;padding:1em;}
+.ff-container label{	font-family: 'Exo', 'Arial Narrow', Arial, sans-serif;    margin:-10px 40px -10px 0;    height: 60px;    cursor: pointer;    color: #777;    line-height: 50px;    font-size: 13px;    float:left;   }
+.clr{width:100%;margin:5px 0;float:left;}
+.ff-container label.ff-label-type-all{	border-radius: 3px 0px 0px 3px; margin-left:10px;}
+.ff-container label.ff-label-type-3{	border-radius: 0px 3px 3px 0px;}
+.ff-container input.ff-selector-type-all:checked ~ label.ff-label-type-all,.ff-container input.ff-selector-type-1:checked ~ label.ff-label-type-1,.ff-container input.ff-selector-type-2:checked ~ label.ff-label-type-2,.ff-container input.ff-selector-type-3:checked ~ label.ff-label-type-3{	color: #fdcc63;font-weight:bold;}
+.ff-container input{	display: none;}
+.ff-items{clear:both;position: relative;	margin: 0px auto; overflow: hidden;}
+.ff-item-type-1{}
+.ff-items a{clear:both display: block;	position: relative;	width: 100%; height: 157px;}
+.ff-items a span{	 display: block;	background: #fdcc63;	color: #fff;	font-weight: bold;	padding: 70px 0 0 0;	position: absolute;	bottom: 4px;	width: 225px;	height: 0px;	overflow: hidden;	opacity: 0;	text-align: center;	text-shadow: 1px 1px 1px #b27a03;	-webkit-transition: all 0.3s ease-out;	-moz-transition: all 0.3s ease-out;	-o-transition: all 0.3s ease-out;	-ms-transition: all 0.3s ease-out;	transition: all 0.3s ease-out;}
+.ff-items a:hover span{	background-color:rgba(157,34,53,1); height: 83px;	opacity: 1;}
+.ff-items li img{	display: block;}
+.ff-items li{	margin: 10px;	float: left;	width: 225px;	height: 157px;	-webkit-transition: all 0.6s ease-in-out;	-moz-transition: all 0.6s ease-in-out;	-o-transition: all 0.6s ease-in-out;	-ms-transition: all 0.6s ease-in-out;	transition: all 0.6s ease-in-out;}
+.ff-container input.ff-selector-type-1:checked ~ .ff-items .ff-item-type-1,.ff-container input.ff-selector-type-2:checked ~ .ff-items .ff-item-type-2,.ff-container input.ff-selector-type-3:checked ~ .ff-items .ff-item-type-3{		opacity: 1;	-webkit-transform: scale(1.05);	-moz-transform: scale(1.05);	-o-transform: scale(1.05);	-ms-transform: scale(1.05);	transform: scale(1.05);}
+.ff-container input.ff-selector-type-1:checked ~ .ff-items li:not(.ff-item-type-1),.ff-container input.ff-selector-type-2:checked ~ .ff-items li:not(.ff-item-type-2),.ff-container input.ff-selector-type-3:checked ~ .ff-items li:not(.ff-item-type-3){	opacity: 0.1;	-webkit-transform: scale(0.5);	-moz-transform: scale(0.5);	-o-transform: scale(0.5);	-ms-transform: scale(0.5);	transform: scale(0.5);}
+.ff-container input.ff-selector-type-1:checked ~ .ff-items li:not(.ff-item-type-1) span,.ff-container input.ff-selector-type-2:checked ~ .ff-items li:not(.ff-item-type-2) span,.ff-container input.ff-selector-type-3:checked ~ .ff-items li:not(.ff-item-type-3) span{	display:none;}
+

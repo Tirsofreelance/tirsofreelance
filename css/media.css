@@ -1,0 +1,91 @@
+@charset "UTF-8";
+ 
+
+@viewport{
+	width: device-with;
+}
+
+@media screen and (max-width:1024px){
+
+footer
+{
+	width: 100%;
+}
+
+}
+
+/*-------------------------------------------------------------------------------966--------------------------*/
+
+@media screen and (max-width:966px){
+
+footer
+{
+	width: 100%;
+}
+
+h1
+{
+	margin: 0 0 0 1em;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+}
+
+.float-left
+{
+	background: #222;
+	transform: scale(0.75);
+	-webkit-transform: scale(0.75);
+}
+
+}
+/*-----------------------------------------------------------------------------------768------------------------*/
+/*ipad-portrait*/
+@media screen and (max-width:768px){
+
+footer
+{
+	width: 100%;
+}
+
+
+
+}
+/*-----------------------------------------------------------------------------------603------------------------*/
+/*--nexus7--portrait*/
+@media screen and (max-width:603px){
+
+footer
+{
+	width: 100%;
+}
+
+
+
+}
+
+
+
+/*--iphone4--*/
+@media screen and (max-device-width: 480px) {
+
+
+footer
+{
+	width: 100%;
+}
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+header{background:#444;padding:.5em;}
+header h1{color:#fff;font-size:18px;margin:0;paddin:0}
+header .logo figure{height:52px;widows:52px;border:1px dashed #bbb}
+header .usuario .avatar{height:50px;border:1px dashed #bbb;border-radius:50%;width:50px}
+section{padding:1.5em;}
+section article{border-bottom-left-radius:1em;border-bottom-right-radius:1em;box-shadow:1px 2px 5px #666;margin:0;overflow:hidden;padding:.5em}
+section figure{background-color:#bbb;height:160px;width:120px}
+section h2{color:#444;font-size:16px}
+section .acciones{border-top:3px solid #444;padding:.5em;}
+section .acciones .datos{position:relative;right:2em}
+section .post{margin-bottom:1.25em}

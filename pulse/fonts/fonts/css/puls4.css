@@ -1,0 +1,51 @@
+@font-face{font-family:'iconitos';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts/icomoon.woff") format('woff'),url("../fonts/icomoon.ttf") format('truetype'),url("../fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+a{color:#dd4f24}
+body{background:#e8e8e8;color:#444;font-family:Arial;font-size:16px}
+footer{background:#dd4f24;color:rgba(255,255,255,0.5);margin:0;padding:1em 0;text-align:center;width:100%;}
+footer h3{font-size:14px;font-weight:normal;}
+footer h3 strong{display:block}
+footer h3 .mejor:before,footer h3 .mejor:after{content:"-"}
+header{background:#444;box-shadow:0 5px 0 rgba(0,0,0,0.2);color:#fff;oveflow:hidden;padding:.5em;position:relative;z-index:1;}
+header .logo{border-right:1px solid #22bce0;width:70px;}
+header .logo img{width:52px}
+header .titular{margin:0 80px 0 100px;}
+header .titular .filtro{color:#22bce0;font-size:14px;font-style:italic;font-weight:bold;text-decoration:none}
+header .titular .publicar{background:#dd4f24;border-radius:.5em 0 .5em 0;color:#fff;font-size:italic;float:right;margin:-3px 0 0 0;padding:.2em .5em;text-decoration:none;}
+header .titular .publicar:before{color:rgba(255,255,255,0.5);content:"\e607";font-family:"iconitos";font-size:.85em;text-decoration:none}
+header .titular .titulo{font-size:18px;font-style:italic;font-weight:normal}
+header .usuario{position:absolute;right:10px;top:10px;}
+header .usuario .avatar{margin:0 1.4em 0 0;position:relative;z-index:2;}
+header .usuario .avatar img{width:50px;border-radius:50%}
+header .usuario .flechita{background:#dd4f24;color:#fff;display:block;padding:3px;position:absolute;right:0;text-align:right;text-decoration:none;top:15px;width:50%;}
+header .usuario .flechita:after{color:#fff;content:"\e606";display:inline-block;font-family:iconitos;margin:0 0 0 .5em;text-align:center;text-decoration:none;vertical-align:center}
+nav{background:#22bce0;border-left:15px solid #fff;position:relative;}
+nav:before{border-bottom:20px solid transparent;border-left:7px solid #fff;border-top:20px solid transparent;content:"";position:absolute;top:0;left:0}
+nav .menu{height:40px;line-height:40px;margin:0;overflow-x:auto;padding:0;white-space:nowrap;}
+nav .menu li{display:inline-block;}
+nav .menu li a{color:#fff;display:inline-block;margin:0 .5em;padding:0 .2em;text-decoration:none}
+.left{float:left}
+.right{float:right}
+.posts{padding:.5em;}
+.posts .post{background:#fff;border-radius:0 0 .5em .5em;box-shadow:2px 2px 10px rgba(0,0,0,0.5);color:#555;margin:0 0 1em 0}
+.posts .acciones{border-top:3px solid #22bce0;overflow:hidden;padding:.5em}
+.posts .datos{float:right;}
+.posts .datos .comentarios{background:#555;border-radius:4px;color:#fff;padding:2px 5px;margin:0 1em 0 0;padding:2px 5px;text-decoration:none}
+.posts .estrellita{text-decoration:none;}
+.posts .estrellita:before{color:#ffd700;content:"\e600";font-family:"iconitos";font-size:.85em;margin:0 .5em 0 -.5em;text-decoration:none;vertical-align:middle}
+.posts .votos{float:left;}
+.posts .votos .down,.posts .votos .up{text-decoration:none}
+.posts .votos .down{color:#f00;}
+.posts .votos .down:before{font-family:"iconitos";font-size:.75em;content:"\e602";vertical-align:middle}
+.posts .votos .up{color:#008000;}
+.posts .votos .up:before{font-family:"iconitos";font-size:.75em;content:"\e601";vertical-align:middle}
+.posts .votos .total{line-height:.5em}
+.posts .descripcion{color:#555;}
+.posts .descripcion .detalles{height:160px;margin-left:130px;}
+.posts .descripcion .detalles .autor{margin:.5em 0 2em 0}
+.posts .descripcion .detalles .fecha{float:right;margin:0 1em 0 0}
+.posts .descripcion .detalles .tag{background:#22bce0;border-radius:.35em;color:#fff;padding:.2em .5em;text-decoration:none}
+.posts .descripcion .detalles .titulo{color:#555;font-size:18px;font-style:italic;margin:0;padding:.5em .5em 0 0}
+.posts .descripcion .imagen{float:left;}
+.posts .descripcion .imagen img{height:160px;vertical-align:top;width:120px}
+@media screen and (min-width: 768px){body{background:#f00}
+}

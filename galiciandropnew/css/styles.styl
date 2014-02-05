@@ -1,0 +1,492 @@
+@font-face {
+	font-family: 'iconitos';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+verde_oscuro = #072604	
+verde_medio = #003300	
+verde_normal = #127C12	
+verde_claro = #C6DE00
+
+a
+	margin 0
+	padding 0
+	text-decoration none
+	list-style none
+img
+	border none
+	display inline-block
+
+body
+	background-color #fff
+	font-family 'Open Sans', Arial
+	font-size 16px
+
+footer
+	background #C6DE00
+	border-top 1px dotted #777
+	color rgba(white,.75)
+	clear both
+	font-size .85em
+	font-weight lighter
+	padding 2.65em 0
+	text-align center
+
+	span
+		p
+			font-weight bold
+			padding .85em 0
+			&:before
+				content "- "
+				font-weight bold
+			&:after
+				content " -"
+				font-weight bold
+	p 
+		padding .20em
+		a
+			border-bottom 1px dotted rgba(white,.75)
+			color rgba(white,.75)
+			padding 0 0 .35em 0
+
+
+h1,h2,h3,h4,h5,h6
+	display inline-block
+
+
+
+.section-name
+	font-family 'Droid Serif', serif
+	font-size 150%
+	font-style italic
+	margin 0
+	padding 0
+	position absolute
+	left 10px
+	top 50px
+	width 250px
+	z-index 50
+
+	.cuadrado
+		
+		display inline-block
+		height 50px
+		position relative
+		width 50px
+
+		img
+			display inline-block
+			float left
+			margin-top 10px
+			position relative
+			width 100%
+
+	h2
+		color rgba(255,255,255,0.85)
+		display inline-block
+		font-size 90%
+		font-weight border
+		margin -2px 0 0 -10px
+		padding 0
+		position relative
+		text-align right
+		vertical-align middle
+
+header
+	height auto
+	position relative
+	width 100%
+	z-index 10
+
+
+	img
+		display inline-block
+		margin 0
+		padding 1em
+		text-align center
+		width 200px
+
+nav
+	display block
+	padding 0
+	position relative
+
+	.main-menu
+		background-color #C6DE00
+		display block
+		margin 0
+		padding 0
+		width 100%
+
+		.menu
+			border none
+			display inline-block
+			margin 0 0 0 80%
+			padding .25em 0
+			position relative
+			width auto
+
+			&:after
+				color rgba(255,255,255,.75)
+				content "\e602"
+				display inline-block
+				font-family "iconitos"
+				font-size 1.85em
+				text-decoration none
+				vertical-align middle
+		.menu:hover
+			cursor pointer
+
+
+
+p 
+	margin 0
+	padding 0
+
+
+
+section.section-home
+	margin 0
+	padding 0
+	position relative
+	width 100%
+
+	figure
+		width auto
+		
+		img
+			margin 0
+			width 100%
+
+	
+
+	.discover
+		background-color #333
+		border-radius 10px	
+		display inline-block
+		height auto
+		margin 1.25em 0 1.75em 1em
+		position relative
+		width auto
+		z-index 30
+
+
+
+		p
+			color #eaeaea
+			font-family: 'Droid Serif', serif
+			font-size 1.15em
+			font-style italic
+			padding 0.80em
+
+			&:after
+				color #C6DE00
+				content " \e604"
+				font-family "iconitos"
+				font-size 1.65em
+				font-style normal
+				text-decoration none
+				vertical-align middle
+
+	.follow
+		
+		display inline-block
+		font-size 1.15em
+		margin 0 5% 0 25%
+		padding 1.85em 0
+		position relative
+		text-align center
+		width 70%
+		.p-follow
+			color #555
+			
+		
+		
+			&:before
+				color rgba(0,174,233, 1)
+				content "\e600"
+				display inline-block	
+				font-family "iconitos"
+				font-size 1.75em
+				text-align center
+				text-decoration none
+				vertical-align buttom
+			&:after
+				color rgba(0,174,233, 1)
+				content "\e601"
+				display inline-block
+				font-family "iconitos"
+				font-size 1em
+				text-decoration none
+				vertical-align middle
+
+	.images-list
+
+		background-color #efefef
+		border-bottom 1px dotted #333
+		display none
+		height auto
+		padding 10% 5% 5% 5%
+		position relative
+		width auto
+
+
+		figure
+			font-size .85em
+			font-style italic
+			margin 0 0 2em 0
+
+			figcaption
+				font-family 'Droid Serif', serif
+				font-style italic
+				display inline-block
+				padding .5em 0
+
+			img
+				display inline-block
+				border-radius 10px
+				width 100%
+
+	.close
+		background-color #333
+		border-radius 10px	
+		display inline-block
+		height auto
+		margin 1.5em 0 .5em .5em
+		position relative
+		width 90px
+		z-index 30
+
+		p
+			color #C6DE00
+			padding .5em
+
+			&:before
+				color #eaeaea
+				content " \e605"
+				font-family "iconitos"
+				font-size 1.25em
+				font-style normal
+				text-decoration none
+				vertical-align top
+
+
+	.rounded-pictures-wrapper
+		display inline-block
+		height auto
+		margin 0
+		padding 0
+		width auto
+
+		.rounded-picture
+			border 2px dotted #444
+			border-radius 50%
+			box-sizing:border-box;
+			-moz-box-sizing:border-box; /* Firefox */
+			display table
+			float left
+			height 45%
+			margin 1em 0 1em 20px
+			padding .35em
+			text-align center
+			vertical-align center
+			width 45%
+
+			img
+				border-radius 50%
+				display table-cell
+				vertical-align middle
+
+		.rounded-picture-big
+			border 2px dotted #444
+			border-radius 50%
+			box-sizing:border-box;
+			-moz-box-sizing:border-box; /* Firefox */
+			display table
+			float left
+			height 45%
+			margin 1.5em 15% 1em 15%
+			padding .35em
+			text-align center
+			vertical-align center
+			width 70%
+
+			img
+				border-radius 50%
+				display table-cell
+				vertical-align middle
+
+	.social
+		border 1px dotted #666
+		border-radius 10px
+		-moz-border-radius 10px
+		-o-border-radius 10px
+		-ie-border-radius 10px
+		padding 1em
+		display inline-block
+		margin 0 0 1em 0
+		position relative
+		z-index 10
+
+	.square-green
+		background-color #003300
+		height 15px
+		left 30px
+		margin 0 
+		position absolute
+		top 164px
+		width 15px
+		transform:rotate(-45deg);
+		-ms-transform:rotate(-45eg); /* IE 9 */
+		-webkit-transform:rotate(-45deg); /* Safari and Chrome */	
+		z-index 40
+
+	.texto-home
+		background #eaeaea
+		margin -4px 0 0 0
+		padding .9em .9em 1.25em .9em
+		position relative
+
+		p 
+			color #333
+			font-family: 'Droid Serif', serif;
+			font-style italic
+			font-size 0.8em
+			font-weight lighter
+			line-height 1.65em
+			padding .25em 
+
+		.p-big
+			background-color #333
+			border-radius 8px
+			color #eaeaea
+			display inline-block
+			font-size 1em
+			font-weight 100
+			margin .25em 0 .65em 0
+			padding .5em 1em
+
+	.social-article
+		background #fff
+		border-top 1px dotted #333
+		height auto
+		overflow hidden
+		margin 0
+		padding 0
+		postion relative
+		width 100%
+
+	.wine-list
+		background-color green
+		display inline-block
+		height auto
+		margin 0
+		padding 0
+		width auto
+
+		.wine-list-article
+			background-color orange
+			display inline-block
+			padding 1em
+			width 250px
+
+			img
+				display inline-block
+				margin 0
+				text-align left
+				vertical-align top
+				width 20%
+
+			p 
+				display inline-block
+				font-family 'Droid Serif', serif 
+				font-style italic
+				font-size 80%
+				margin 0 0 0 1em
+				padding .25em
+				width 70%
+
+.nav-footer
+	display block
+	margin 0
+	padding 0
+	position relative
+	list-display none
+	width 100%
+
+	li
+		display table
+		float left
+		height 80px
+		list-style none
+		margin 0
+		padding 0
+		text-align center
+		vertical-align center
+		width 25%
+
+		a
+			color #eaeaea
+			display table-cell
+			font-size .80em
+			font-weight lighter
+			margin 0
+			padding 0
+			vertical-align middle	
+
+	.link-galicia
+		background-color #072604	
+	.link-albarino
+		background-color #003300	
+	.link-wines
+		background-color #127C12	
+	.link-contact	
+		background-color #C6DE00
+		
+		
+
+.submenu
+	display none
+	margin 0
+	padding 0
+	position relative
+	width 100%
+
+	li
+		background #444
+		border-bottom 1px solid #333
+		border-top 1px solid #555
+		display block
+		list-style none
+		margin 0
+		padding 0
+	
+		a
+			color #eaeaea
+			font-size .85em
+			font-style italic
+			display block
+			margin 0 0 0 20px
+			padding 1em 0
+
+.timeline
+	display none
+	margin-left 1em
+	padding 1.65em 0
+	width 75%
+
+
+
+
+	
+
+	
+
+
+
