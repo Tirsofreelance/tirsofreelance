@@ -26,15 +26,14 @@
 */
 @font-face {
   font-family: 'iconitos';
-  src:url('../fonts/icomoon.eot');
-  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.woff') format('woff'),
-    url('../fonts/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon.svg#icomoon') format('svg');
+  src:url('../fonts/icomoon.eot?-ls69uz');
+  src:url('../fonts/icomoon.eot?#iefix-ls69uz') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?-ls69uz') format('woff'),
+    url('../fonts/icomoon.ttf?-ls69uz') format('truetype'),
+    url('../fonts/icomoon.svg?-ls69uz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 
 meta.foundation-mq-small {
   font-family: "only screen and (min-width: 768px)";
@@ -121,16 +120,32 @@ body {
   margin: 0;
   padding:0;
   position: relative;
-  cursor: default; }
+  cursor: default; 
+}
 
 footer
 {
-  background: #fc6;
+  border-top: 1px #666 dotted;
   color:#fff;
   font-family: 'Lato', Arial;
   font-weight: normal;
   height:auto;
   padding:1rem 0 0 0;
+}
+
+.html5_logo
+{
+  background-color: rgba(0,0,0,.15);
+  height: auto;
+  text-align: center;
+  padding: 3.25em 0;
+}
+.html5_logo p
+{
+  display: inline-block;
+  font-size: 75%;
+  font-weight: bolder;
+  padding: 1em;
 }
 
 nav{
@@ -140,7 +155,7 @@ nav{
 
 
 .h6-about{
-  color: rgba(155,195,210,0.9);
+  color: rgba(0,0,0,0.6);
   font-size: 200%;
   margin: 0;
   padding: 0;
@@ -184,12 +199,52 @@ nav{
   -o-transition: all 0.5s ease;
 }
 
+.follow-twitter{
+  display: inline-block;
+  padding: 1em 2em;
+}
+.follow-twitter:after{
+  content: "\e610";
+  font-family: 'iconitos';
+  font-size: 350%;
+  font-style: normal; 
+}
+.follow-google{
+  display: inline-block;
+  padding: 1em 2em;
+}
+.follow-google:after{
+  content: "\e630";
+  font-family: 'iconitos';
+  font-size: 350%;
+  font-style: normal; 
+}
+.follow-github{
+  display: inline-block;
+  padding: 1em 2em;
+}
+.follow-github:after{
+  content: "\e601";
+  font-family: 'iconitos';
+  font-size: 350%;
+  font-style: normal; 
+}
+.follow-flickr{
+  display: inline-block;
+  padding: 1em 2em;
+}
+.follow-flickr:after{
+  content: "\e602";
+  font-family: 'iconitos';
+  font-size: 350%;
+  font-style: normal; 
+}
 
 .home
 {
   background-color: rgba(33,33,33,1);
   border-top: 1px solid #bbb;
-  margin: 0;
+  margin: 0 0 1.5em 0;
   padding: 0 0 1.85em 0;
   width: 100%;
 }
@@ -220,7 +275,7 @@ nav{
 }
 .home .icono:after{
   color:#eaeaea;
-  content: "\e601";
+  content: "\e600";
   font-family: 'iconitos';
   font-size: 140%;
   font-style: normal;
@@ -234,23 +289,6 @@ nav{
 
 }
 
-.html5_logo
-{
-  background-color: rgba(255,255,255,.5);
-  border-top: 1px dotted #fff;
-  height: auto;
-  text-align: center;
-  padding: 2em;
-}
-.html5_logo p
-{
-  display: inline-block;
-  font-size: 75%;
-  font-weight: bolder;
-  padding: 1em;
-}
-
-
 .icono{
   
   color: #999;
@@ -262,7 +300,7 @@ nav{
 }
 .icono:after{
   color:lightblue;
-  content: "\e601";
+  content: "\e600";
   font-family: 'iconitos';
   font-size: 140%;
   font-style: normal;
@@ -303,27 +341,29 @@ nav{
 }
 .logo-footer
 {
-  background: #333;
+  border: 1px solid #222;
   border-radius: 50%;
   display: table;
   height: 140px;
-  margin: auto;
-  margin-top: 2em;
-  padding: 2em 0;
+  margin:1em auto;
+  padding: .5em 0;
   position: relative;
   width:140px;
 }
-.logo-footer p 
-{
+.logo-footer a{
+  color: #222;
+  font-weight: lighter;
+}
+.logo-footer a:hover{
+  color: #222;
+}
+.logo-footer h1{
   color: #fff;
   display: table-cell;
-  font-family: Helvetica, Arial;
-  font-style: normal;
-  font-weight: bolder;
+  font-weight: lighter;
   text-align: center;
   vertical-align: middle;
 }
-
 
 .logo-header
 {
@@ -336,6 +376,15 @@ nav{
   position: relative;
   width:140px;
 }
+
+.logo-header a{
+  color: #fff;
+  font-weight: lighter;
+}
+.logo-header a:hover{
+  color: #fff;
+}
+
 .logo-header h1{
   color: #fff;
   display: table-cell;
@@ -350,15 +399,20 @@ nav{
   font-variant: normal;
   margin: 0 auto;
   position: relative;
-  padding: 1em;
+  padding: 0;
   text-align: center;
   vertical-align: center;
+  width: 200px;
 }
 .menu-footer a{
-  color: rgba(255,255,255, .5);
+  color: rgba(0,0,0, .25);
   display: block;
   font-variant: normal;
-  padding: 1em 0;
+  padding: .5em 0 2em 0;
+}
+
+.orange{
+  background-color: orange;
 }
 
 .padding{
@@ -400,12 +454,15 @@ nav{
 }
 
 .responsive-wrapper{
-  background-color: rgba(155,195,210,0.9);
+  background-color: rgba(0,0,0,0.65);
   border: white 2px solid;
   border-radius: .75em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline-block;
   margin: 1em 0 0 0;
-  padding: .75em;
+  padding: 1.25em;
 }
 .responsive-wrapper h4{
   color: #eaeaea;
@@ -415,7 +472,8 @@ nav{
 
 }
 .responsive-wrapper p{
-  color: #eaeaea;
+  color: #fff;
+  font-size: 95%;
   margin: 0;
   padding: 0;
 }
