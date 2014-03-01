@@ -1,6 +1,11 @@
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!doctype html>
+<html lang="en">
+<!doctype html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
 <meta charset="utf-8">
@@ -11,8 +16,7 @@
   <link rel="stylesheet" type="text/css" href="css/slider.css">
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
-  <script src="js/vendor/custom.modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  
   
 </head>
 <body>
@@ -81,12 +85,8 @@
 
 		</div>
 	</div>
-<!--end standard menu-->
-
-
-		   
-			<!-- Grid Example -->
-			
+<!--end standard menu-->  
+			<!-- Grid Example -->			
 			<div class="slider-wrapper">
 				<div class="row">
 					<div class="large-12 columns">
@@ -108,15 +108,18 @@
 				</figure>
 			</div>
 			<div class="row">	
-						<div class="large-6 columns">	
-							<a href="about.html"><h4 class ="icono">About me</h4></a>
-						 	<p>Hi! my name´s Tirso Sánchez Otaegui, I’m a creative and enthusiashtic graphic designer with experience in web and graphic design, including logo and corporate design. Since I worked in big format digital pringting business as well, I easily adapt to different working environments.</p>
+						<div class="large-6 columns">
+						 	<p>Hi! my name´s Tirso Sánchez Otaegui, I’m a London based creative and enthusiashtic graphic designer, I've experience in web and graphic design, including logo and corporate design. Since I worked in big format digital pringting business as well, I easily adapt to different working environments. I have graduated  as Technician in Advertising Graphics, Superior Grade Formative Course - AULA D School of Design, Vigo (Spain). I'm ready to be hired!</p>
+
+						 	<hr/><br/>
+
+
+						 	<a href="work.html" class=" radius button">Visit my portfolio</a><br/><br/>
+
+
 
 						 </div>
-						<div class="large-6 columns">
-							<a href="work.html"><h4 class ="icono">Visit my portfolio</h4>
-							</a>		
-					</div>	
+						
 				</div>
 			</div>
 
@@ -145,8 +148,51 @@
 			
 		<!--end social-->
 		
-	
+		<!--form-->
+		<hr/>
+		<a name="contact"><h3 class="padding">Contact</h3></a>
+				 <form class="formulario">
 
+            <div class="row">
+                <!--name-->
+                <div class="large-4 columns">
+                  <label>Name</label>
+                  <input type="text" placeholder="">
+                </div>
+                <!--surname-->
+                <div class="large-4 columns">
+                  <label>Surname</label>
+                  <input type="text" placeholder="">
+                </div>
+              
+              <!--email-->
+              <div class="large-4 columns">
+                <label>email</label>
+                <input type="text" placeholder="">
+              </div>
+      
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Enquiry</label>
+                <textarea placeholder=""></textarea>
+              </div> 
+            </div>
+              <div class="row">
+                <div class="large-3columns">
+                  <p class="submit">  
+                    <input type="submit" value="Send" />  
+                  </p>
+              </div>
+            </div>
+          
+      </form>
+
+
+		<!--endform-->
 		<footer>
 			<div class="logo-footer">
 		          <h1><a href="#">tirsofreelance</a></h1>
@@ -168,12 +214,19 @@
 
       
 	
+  <script src="js/.modernizr.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
   
   <script src="js/foundation.min.js"></script>
   <!--
