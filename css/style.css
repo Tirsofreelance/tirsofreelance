@@ -123,6 +123,8 @@ body {
   cursor: default; 
 }
 
+
+
 footer
 {
   border-top: 1px #666 dotted;
@@ -152,6 +154,9 @@ nav{
   margin: 0;
   padding: 0;
 }
+
+
+
 
 
 .h6-about{
@@ -394,6 +399,7 @@ nav{
 }
 
 
+
 .menu-footer{
   display:block;
   font-variant: normal;
@@ -438,6 +444,10 @@ nav{
 .map_canvas embed,
 .map_canvas object {
   max-width: none !important; }
+
+.padding{
+   padding:1.5em;
+}
 
 .photo-about figure{
   border: 2px #666 dotted;
@@ -541,6 +551,7 @@ h3
 {
   font-family: 'Lato', Arial; 
   font-weight: 100;
+
 }
 
 img {
@@ -1908,7 +1919,7 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 3em;
   font-size: 1em;
-  background-color: #333;
+  background-color: rgba(0,100,200,1);
   border-color: #2284a1;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
